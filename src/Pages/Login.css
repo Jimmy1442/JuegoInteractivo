@@ -1,0 +1,162 @@
+/* Login.css */
+
+/* Reset para asegurar centrado perfecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  min-height: 100vh;
+  height: 100vh;
+  background-color: #4ade80; /* bg-green-400 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.login-card {
+  background-color: #f3f4f6; /* bg-gray-100 */
+  border-radius: 1.5rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  width: 100%;
+  max-width: 24rem; /* max-w-sm */
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Nuevo ícono matemático */
+.math-symbol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Times New Roman', serif;
+  position: relative;
+}
+
+.lim-text {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: -2px;
+}
+
+.arrow {
+  font-size: 1rem;
+  margin: -2px 0;
+  transform: rotate(-10deg);
+}
+
+.infinity {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: -2px;
+}
+
+.logo-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #9333ea; /* text-purple-600 */
+  margin-bottom: 0.25rem;
+}
+
+.logo-subtitle {
+  color: #4b5563; /* text-gray-600 */
+  font-size: 0.875rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+  color: #374151; /* text-gray-700 */
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.input-label span:first-child {
+  margin-right: 0.5rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db; /* border-gray-300 */
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.input-field:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.forgot-password {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.forgot-password button {
+  background: none;
+  border: none;
+  color: #4b5563; /* text-gray-600 */
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.forgot-password button:hover {
+  color: #2563eb; /* hover:text-blue-600 */
+}
+
+.login-button {
+  width: 100%;
+  background-color: #3b82f6; /* bg-blue-500 */
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #2563eb; /* hover:bg-blue-600 */
+}
